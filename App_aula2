@@ -1,16 +1,24 @@
 //Variables
-let numeroSecreto = 6;
+let numeroSecreto = 4;
 let numeroUsuario = prompt("Me indicas un número entre 1 y 10 por favor:");
-
 console.log(numeroUsuario);
+
 /*
 Este código realiza
 la comparación (como en C)
 */
+//console.log('Resultado de la comparacion',numeroUsuario==numeroSecreto);
 if (numeroUsuario == numeroSecreto) {
     //Acertamos, fue verdadera la condición
     alert(`Acertaste, el número es: ${numeroUsuario}`);
 } else {
     //La condición no se cumplió
-    alert('Lo siento, no acertaste el número');
+    //console.log('El numero secreto era:',numeroSecreto);
+    alert('El numero secreto es:'+numeroSecreto);
 }
+
+/**
+  extensión, que no es sólo para eso, la realidad es que las extensiones en Visual Studio son complementos, 
+  son plugins que nos permiten mejorar la usabilidad, poder trabajar de forma más amena, 
+  más práctica y para evitar que cometamos errores.
+ */
